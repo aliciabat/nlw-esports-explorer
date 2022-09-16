@@ -31,7 +31,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #c91842 0%, #5cc2e2 100%);
     border-radius: 50%;
     display: flex;
     padding: 4px;
@@ -57,13 +57,13 @@ main {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #c91842 0%, #5cc2e2 100%);
     padding-top: 4px;
     border-radius: 14px;
 }
 
 section div {
-    background-color: #2A2634;
+    background-color: #262629;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
@@ -94,14 +94,15 @@ section ul li:hover {
 }
 
 .games-list img {
-    width: 90px;
+    width: 100px;
     border-radius: 8px;
+    border: 1px solid #555555;
 }
 
-.channel-list img {
-    width: 70px;
-    border-radius: 50%;
-    border: 1px solid #443E54;
+.shows-list img {
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid #555555;
 }
 
 /* animation */
@@ -129,23 +130,23 @@ main section:nth-child(3) {
 @keyframes fromTop {
     from {
         opacity: 0;
-        transform: translateY(-30px);
+        transform: translatex(-50px);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translatex(0);
     }
 }
 
 @keyframes fromBottom {
     from {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translatex(-50px);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translatex(0);
     }
 }
